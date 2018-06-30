@@ -1,2 +1,20 @@
 /* user.css ----------------------------------------------------------------- */
 
+/* nav-bar components ------------------------------------------------------- */
+.navbar-inverse {
+	border-color: #472e8d;
+	background-color: #00ccff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+}
+
+.navbar-inverse .navbar-text,
+.navbar-inverse .navbar-nav,
+.navbar-inverse .navbar-nav > li > a {
+   font-weight: bold;	
+   color: #472e8d;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #472e8d;
+}
